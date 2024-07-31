@@ -7,12 +7,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="flex w-full h-full justify-center">
-      <div className='w-[500px] items-center'>
-       <Titulo />
+    <div className="">
+      <div className=''>
+       <Titulo msg={"Curso de react"} />
     </div>
     </div>
   )
 }
-
 export default App
